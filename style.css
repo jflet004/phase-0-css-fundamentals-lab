@@ -3,3 +3,34 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 { /* get header center page */
+  text-align: center;
+}
+figure { /* make image caption smaller and centered */
+  text-align: center;
+  font-size: smaller;
+}
+nav a { /* add space between "About, New Properties.." and add background color to each */
+  background-color: rgb(233, 214, 175);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+nav { /* center "About, New Properties..." row */
+  text-align: center;
+}
+
+section#featured-property p { /* center paragraph text anc place center page. create space between both paragraphs */
+  width: 800px;
+  text-align: center;
+  margin: auto;
+  line-height: 20px;
+  margin-top: 20px;
+}
+section#details div { /* move "Contact, Correspondence..." from vertical to horizontal. add background color. center text and spread them out throughout page */
+  float: left;
+  text-align: center;
+  width: 25%;
+  background: rgb(148, 18, 18);
+  margin-top: 10px;
+  color:rgb(233, 214, 175)
+}
